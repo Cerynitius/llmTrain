@@ -7,6 +7,7 @@ This project is intended for **educational purposes** and demonstrates the core 
 Pipeline:
 
 Corpus → Tokenizer Training
+
 GPT2 Tokenizer → Transformer Training
 
 ---
