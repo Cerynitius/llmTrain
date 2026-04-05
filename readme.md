@@ -1,18 +1,20 @@
 # Mini Training Demo
 
-A minimal end-to-end pipeline demonstrating how to train a tokenizer from scratch.
+A minimal end-to-end pipeline demonstrating how to train a tokenizer and a lm from scratch.
 
 This project is intended for **educational purposes** and demonstrates the core components of modern LLM systems.
 
 Pipeline:
 
 Corpus → Tokenizer Training
+GPT2 Tokenizer → Transformer Training
 
 ---
 
 # Features
 
 - Train a **BPE tokenizer** from raw text
+- Train a **Transformer LM** from GPT2 tokenizer
 - Minimal and easy to understand code
 
 ---
