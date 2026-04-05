@@ -1,4 +1,4 @@
-# Mini Tokenizer Training Demo
+# Mini Training Demo
 
 A minimal end-to-end pipeline demonstrating how to train a tokenizer from scratch.
 
