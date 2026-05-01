@@ -13,12 +13,12 @@ def get_device():
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_path", type=str, default="llm100m", help="HF模型目录")
-    parser.add_argument("--prompt", type=str, default="Once upon a time", help="输入提示词")
+    parser.add_argument("--model_path", type=str, default="llm100m", help="HF path")
+    parser.add_argument("--prompt", type=str, default="Once upon a time", help="input the prompt")
     args = parser.parse_args()
 
     device = get_device()
-    print(f"正在从 {args.model_path} 加载模型至 {device}...")
+    print(f"LOADING FROM {args.model_path} ON {device}...")
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_path)
     model = AutoModelForCausalLM.from_pretrained(
